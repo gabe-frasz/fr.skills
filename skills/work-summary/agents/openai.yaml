@@ -1,0 +1,6 @@
+interface:
+  display_name: "Resumo do trabalho"
+  short_description: "Resume atividades do Git e GitHub"
+  default_prompt: "Use $work-summary para resumir meu trabalho nos projetos informados."
+policy:
+  allow_implicit_invocation: false
