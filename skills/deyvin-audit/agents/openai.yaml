@@ -1,0 +1,6 @@
+interface:
+  display_name: "Auditoria de segurança"
+  short_description: "Audita segurança e gera relatório em PDF"
+  default_prompt: "Use $deyvin-audit para auditar a segurança deste projeto."
+policy:
+  allow_implicit_invocation: false

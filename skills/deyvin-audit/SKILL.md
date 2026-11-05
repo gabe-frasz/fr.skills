@@ -1,7 +1,9 @@
 ---
 name: deyvin-audit
-description: Detecção de falhas de segurança em projetos.
+description: Audita a segurança de um projeto em busca de falhas de isolamento entre tenants, permissões apenas no frontend, IDOR, segredos expostos e XSS, e gera um relatório em PDF com issues prontas para o GitHub. Use quando o usuário pedir uma auditoria de segurança, revisão de vulnerabilidades ou análise de riscos do código.
 disable-model-invocation: true
+compatibility: Requer acesso de leitura ao código, permissão de escrita em docs/security-audit/ e uma ferramenta local para gerar PDF (Python 3 com reportlab e matplotlib, navegador headless, wkhtmltopdf ou pandoc).
+license: MIT
 ---
 
 # Deyvin Audit

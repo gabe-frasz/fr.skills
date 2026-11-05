@@ -2,6 +2,8 @@
 name: work-summary
 description: Generate a concise work summary from local Git history and GitHub pull requests for user-selected projects.
 disable-model-invocation: false
+compatibility: Requer Git e GitHub CLI (gh) autenticado, com acesso de leitura aos repositórios e pull requests analisados.
+license: MIT
 ---
 
 # Work Summary
